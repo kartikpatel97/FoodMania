@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "464729784999",
+    "firebase_url": "https://campusculinaries.firebaseio.com",
+    "project_id": "campusculinaries",
+    "storage_bucket": "campusculinaries.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464729784999:android:948c4949604064ad",
+        "android_client_info": {
+          "package_name": "com.dit.thecampusculinaries"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464729784999-st8gpe91rgs1tmf0c2ieo25a6epui9np.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpxzcmgvr7x7XX0gY-qYQ5sw04ERbITTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

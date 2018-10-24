@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/llCulName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCulName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="4dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:text="Danny's Coffee Bar"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/llCulName"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/darker_gray"
+
+        />
+    <LinearLayout
+        android:id="@+id/llOrderDetails"
+        android:layout_below="@+id/viewLine"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvOrderId"
+            android:gravity="center"
+            android:text="Order ID: adsdacCSWDSQ"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvName"
+            android:gravity="center"
+            android:text="Name: Ketav Pandya"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvEmail"
+            android:gravity="center"
+            android:text="Email: kp@gmail.com"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:gravity="center"
+            android:text="Email: kp@gmail.com"/>
+
+    </LinearLayout>
+    <View
+        android:id="@+id/viewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/llOrderDetails"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="@android:color/darker_gray"
+
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/viewLine2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvTotal"
+        android:gravity="center"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorPrimary"
+        android:text="Order Total: ₹300"/>
+
+</LinearLayout>
+
+</RelativeLayout>
